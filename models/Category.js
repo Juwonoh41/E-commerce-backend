@@ -7,7 +7,6 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
-
     {
       //id
       id: {
@@ -21,7 +20,6 @@ Category.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
-    },
   },
   
   {

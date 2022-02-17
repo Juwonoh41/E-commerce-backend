@@ -10,8 +10,6 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
-    
-    {
       //id
       id: {
         type: DataTypes.INTEGER,
@@ -44,7 +42,7 @@ Product.init(
           isNumeric: true,
         },
       },
-      
+
       //category_id 
       category_id: {
         type: DataTypes.INTEGER,
@@ -54,7 +52,6 @@ Product.init(
           key: 'id',
         },
       },
-    },
   },
 
   {
